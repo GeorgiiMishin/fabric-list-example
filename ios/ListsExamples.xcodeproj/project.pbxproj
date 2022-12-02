@@ -15,7 +15,7 @@
 		7699B88040F8A987B510C191 /* libPods-ListsExamples-ListsExamplesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ListsExamples-ListsExamplesTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8896FD0D2939FF9E00F96410 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8896FD0C2939FF9E00F96410 /* Adapter.swift */; };
-		8896FD102939FFBD00F96410 /* NativeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8896FD0F2939FFBD00F96410 /* NativeList.swift */; };
+		8896FD102939FFBD00F96410 /* NativeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8896FD0F2939FFBD00F96410 /* NativeListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +46,7 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ListsExamples/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8896FD0B2939FF9E00F96410 /* ListsExamples-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ListsExamples-Bridging-Header.h"; sourceTree = "<group>"; };
 		8896FD0C2939FF9E00F96410 /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
-		8896FD0F2939FFBD00F96410 /* NativeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeList.swift; sourceTree = "<group>"; };
+		8896FD0F2939FFBD00F96410 /* NativeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeListView.swift; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-ListsExamples-ListsExamplesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListsExamples-ListsExamplesTests.release.xcconfig"; path = "Target Support Files/Pods-ListsExamples-ListsExamplesTests/Pods-ListsExamples-ListsExamplesTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -148,7 +148,7 @@
 		8896FD0E2939FFAC00F96410 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				8896FD0F2939FFBD00F96410 /* NativeList.swift */,
+				8896FD0F2939FFBD00F96410 /* NativeListView.swift */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -430,7 +430,7 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				8896FD0D2939FF9E00F96410 /* Adapter.swift in Sources */,
-				8896FD102939FFBD00F96410 /* NativeList.swift in Sources */,
+				8896FD102939FFBD00F96410 /* NativeListView.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
