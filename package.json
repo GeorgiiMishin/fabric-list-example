@@ -41,5 +41,10 @@
       "json",
       "node"
     ]
+  },
+  "codegenConfig": {
+    "name": "appcomponents",
+    "type": "all",
+    "jsSrcsDir": "./src/specs"
   }
 }
